@@ -20,7 +20,7 @@
 .logo {
     position: absolute;
     width: 200px;
-    height: 60px;
+    height: 20px;
     left: 50px;
     top: 0px;
 }
@@ -122,35 +122,30 @@
     position: absolute;
     width: 1200px;
     height: 1162px;
-    left: calc(50% - 1200px/2);
+    left: calc(50% - 1150px/2);
     top: 80px;
 }
 
 .heading {
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 90px;
     left: calc(50% - 400px/2);
     top: 0px;
-
+    padding-bottom: 25px;
     /* h3 */
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 130%;
     /* or 45px */
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     /* color-dark-l */
-
     color: #545454;
-
 }
 
 .cardsContainer {
@@ -166,25 +161,25 @@
 
 }
 .card{
-    border: 1px solid black; 
-    /* position: absolute; */
+   
 width: 270px;
 height: 435px;
 margin: 5px;
-
-/* top:5%; */
-/* left: calc(50% - 270px/2 - 465px);
-top: 15px; */
-
-/* color-light-s */
-
 background: #FAFAFA;
 border-radius: 9px;
 }
 
 .navigation{
-    position: absolute;
+position: absolute;
 width: 340px;
+height: 52px;
+left: 430px;
+top: 1110px;
+}
+
+.btnPaginatorInact{
+position: absolute;
+width: 52px;
 height: 52px;
 left: 430px;
 top: 1110px;
@@ -196,14 +191,9 @@ display: flex;
 
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-
-position: absolute;
+padding-left: 35px;
+padding-top: 10px;
 width: 100px;
-height: 30px;
-/* left: 41.5px;
-top: 353px; */
-
 }
 .buttonPrimary{
     display: flex;
@@ -294,7 +284,7 @@ position: absolute;
 height: 350px;
 left: 0%;
 right: 0%;
-top: 1462px;
+top: 1300px;
 }
 
 .footerContent{
